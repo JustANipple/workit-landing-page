@@ -12,7 +12,7 @@
     }
 
     .header_intro {
-        padding-block-end: 12.5rem;
+        padding-block: 0 12.5rem;
     }
 
     .header_intro::before {
@@ -61,6 +61,7 @@
     }
     
     .features_feature {
+        flex: 1;
         display: grid;
         row-gap: 3.5rem;
         height: fit-content;

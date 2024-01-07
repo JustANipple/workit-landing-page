@@ -87,7 +87,7 @@
 /* Begin::Features */
 .features {
   background-color: var(--text-clr-light);
-  padding-block-start: 12rem;
+  padding-block: 12rem 2rem; 
   display: grid;
   row-gap: 2.25rem;
   position: relative;
@@ -131,7 +131,7 @@
 
 /* Begin::Founder */
 .founder {
-  padding-block: 4rem 1rem;
+  padding-block: 6rem 1rem;
   padding-inline: 1rem;
   display: grid;
   place-items: center;

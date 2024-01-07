@@ -53,6 +53,7 @@
         padding-block: 17rem 2rem; 
         padding-inline: 6.25rem;
         row-gap: 3rem;
+        justify-items: left;
     }
 
     .features_feature {

@@ -1,117 +1,118 @@
 @media screen and (min-width: 768px) {
-    /* Begin::Header */
-    .header::before, .features::before {
-        --curve-h: 8rem;
-    }
+  /* Begin::Header */
+  .header::before,
+  .features::before {
+    --curve-h: 8rem;
+  }
 
-    .header_nav {
-        padding: 2rem 2.375rem;
-    }
+  .header_nav {
+    padding: 2rem 2.375rem;
+  }
 
-    .header_intro {
-        padding-block: 2rem 9rem;
-    }
+  .header_intro {
+    padding-block: 2rem 9rem;
+  }
 
-    .header_intro::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        width: 5.5rem;
-        background-image: url("../assets/images/bg-pattern-1.svg");
-        background-repeat: no-repeat;
-        background-position-x: -14.25rem;
-        background-position-y: -1rem;
-    }
-      
-    .header_intro::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        width: 5rem;
-        background-image: url("../assets/images/bg-pattern-2.svg");
-        background-repeat: no-repeat;
-        background-position-y: 10rem;
-    }
+  .header_intro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 5.5rem;
+    background-image: url("../assets/images/bg-pattern-1.svg");
+    background-repeat: no-repeat;
+    background-position-x: -14.25rem;
+    background-position-y: -1rem;
+  }
 
-    .intro_heading {
-        font-size: 3.75rem;
-        line-height: 3.75rem;
-    }
+  .header_intro::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 5rem;
+    background-image: url("../assets/images/bg-pattern-2.svg");
+    background-repeat: no-repeat;
+    background-position-y: 10rem;
+  }
 
-    .header_img {
-        bottom: -13rem;
-        max-height: 18.5rem;
-    }
-    /* End::Header */
+  .intro_heading {
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+  }
 
-    /* Begin::Features */
-    .features {
-        padding-block: 17rem 2rem; 
-        padding-inline: 6.25rem;
-        row-gap: 3rem;
-        justify-items: left;
-    }
+  .header_img {
+    bottom: -13rem;
+    max-height: 18.5rem;
+  }
+  /* End::Header */
 
-    .features_feature {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
-    }
+  /* Begin::Features */
+  .features {
+    padding-block: 17rem 2rem;
+    padding-inline: 6.25rem;
+    row-gap: 3rem;
+    justify-items: left;
+  }
 
-    .feature_content {
-        text-align: left;
-    }
-    /* End::Features */
+  .features_feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
 
-    /* Begin::Founder */
-    .founder {
-        padding-block: 2.5rem 1rem;
-        padding-inline: 2.375rem;
-        position: relative;
-    }
+  .feature_content {
+    text-align: left;
+  }
+  /* End::Features */
 
-    .founder_img {
-        padding-inline: 0;
-        top: 8rem;
-        right: 12.5rem;
-        width: 17.5rem;
-    }
+  /* Begin::Founder */
+  .founder {
+    padding-block: 2.5rem 1rem;
+    padding-inline: 2.375rem;
+    position: relative;
+  }
 
-    .founder_content {
-        padding-block: 2.75rem 3.25rem;
-        padding-inline: 3.5rem;
-        max-width: 32.125rem;
-        justify-items: left;
-        text-align: left;
-        position: relative;
-        left: 5.5rem;
-    }
+  .founder_img {
+    padding-inline: 0;
+    top: 8rem;
+    right: 12.5rem;
+    width: 17.5rem;
+  }
 
-    .founder_content::after {
-        content: "";
-        position: absolute;
-        right: 0;
-        bottom: -6rem;
-        width: 14rem;
-        height: 13rem;
-        background-image: url("../assets/images/bg-pattern-3.svg");
-        background-repeat: no-repeat;
-        z-index: 1;
-    }
+  .founder_content {
+    padding-block: 2.75rem 3.25rem;
+    padding-inline: 3.5rem;
+    max-width: 32.125rem;
+    justify-items: left;
+    text-align: left;
+    position: relative;
+    left: 5.5rem;
+  }
 
-    .founder_content .content_title {
-        font-size: 3rem;
-    }
-    /* End::Founder */
+  .founder_content::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -6rem;
+    width: 14rem;
+    height: 13rem;
+    background-image: url("../assets/images/bg-pattern-3.svg");
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
 
-    /* Begin::Footer */
-    .footer {
-        padding-block-end: 7.5rem;
-    }
-    /* End::Footer */
+  .founder_content .content_title {
+    font-size: 3rem;
+  }
+  /* End::Founder */
+
+  /* Begin::Footer */
+  .footer {
+    padding-block-end: 7.5rem;
+  }
+  /* End::Footer */
 }

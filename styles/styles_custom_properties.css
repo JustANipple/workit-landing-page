@@ -1,43 +1,41 @@
 @font-face {
-    font-family: "Fraunces";
-    src:
-      local("Fraunces"),
-      url("../assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf"),
-      format("truetype");
+  font-family: "Fraunces";
+  src: local("Fraunces"),
+    url("../assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf"),
+    format("truetype");
 }
 
 @font-face {
-    font-family: "Manrope";
-    src:
-      local("Manrope"),
-      url("../assets/fonts/manrope/static/Manrope-Regular.ttf"),
-      format("truetype");
+  font-family: "Manrope";
+  src: local("Manrope"),
+    url("../assets/fonts/manrope/static/Manrope-Regular.ttf"),
+    format("truetype");
 }
 
 /* Custom properties */
 :root {
-    /* Colors */
-    --main-clr: #24053E;
-    --secondary-clr: #44FFA1;
-    --text-clr-dark: #584D62;
-    --text-clr-light: #FCF8FF;
-    --white: #FFFFFF;
-    /* Fonts */
-    --ff-heading: "Fraunces";
-    --ff-body: "Manrope";
-    /* Weights */
-    --fw-h: 600;
-    --fw-body: 400;
-    /* Sizes */
-    --fs: 1rem;
-    --fs-hl: 5rem;
-    --fs-hm: 3.125rem;
-    --fs-hs: 2rem;
-    --fs-body: 1.125rem;
-    /* Spacings */
-    --sp-hl: 5rem;
-    --sp-hm: 4rem;
-    --sp-hs: 2.5rem;
-    --sp-body: 2rem;
-    --main-pad-inline: 1rem;
+  /* Colors */
+  --main-clr: #24053e;
+  --secondary-clr: #44ffa1;
+  --text-clr-dark: #584d62;
+  --text-clr-light: #fcf8ff;
+  --white: #ffffff;
+  /* Fonts */
+  --ff-heading: "Fraunces";
+  --ff-body: "Manrope";
+  /* Weights */
+  --fw-h: 600;
+  --fw-body: 400;
+  /* Sizes */
+  --fs: 1rem;
+  --fs-hl: 5rem;
+  --fs-hm: 3.125rem;
+  --fs-hs: 2rem;
+  --fs-body: 1.125rem;
+  /* Spacings */
+  --sp-hl: 5rem;
+  --sp-hm: 4rem;
+  --sp-hs: 2.5rem;
+  --sp-body: 2rem;
+  --main-pad-inline: 1rem;
 }
